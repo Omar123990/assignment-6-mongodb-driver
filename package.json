@@ -1,0 +1,20 @@
+{
+  "name": "assignment-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=dev node --watch src/index.js --enable-turbo-mode",
+    "start:prod": "cross-env NODE_ENV=prod node --watch src/indev.js --enable-turbo-mode"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.6.0"
+  }
+}
